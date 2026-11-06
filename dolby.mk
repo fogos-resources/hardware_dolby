@@ -114,12 +114,9 @@ PRODUCT_PACKAGES += \
 ifeq ($(TARGET_INCLUDES_OEM_App),true)
 # Motorola bloatwares
 PRODUCT_PACKAGES += \
-    MotoSignatureApp \
     MotoDolbyDax3 \
     MotorolaSettingsProvider \
     daxService \
-    com.motorola.frameworks.core.addon \
-    com.motorola.motosignature \
     moto-checkin \
     moto-settings \
     moto
